@@ -35,7 +35,7 @@ function TodoCreate() {
           onChange={handleChange}
           placeholder="Add Task"
         />
-        <button className="button">Create</button>
+        <button className="button">Add</button>
       </form>
     </div>
   );
