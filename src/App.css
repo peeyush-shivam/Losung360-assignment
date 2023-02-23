@@ -60,12 +60,7 @@ button {
     margin-left: 0px;
     margin-top: 20px;
 }
-/* .todo-list{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
+
 .todo-show{
     margin: 10px 0px 10px 0px;
     height: 40px;
@@ -77,6 +72,7 @@ button {
     color: #ffffff;
     align-items: center;
     justify-content: space-between;
+    font-size: 15px;
 }
 .actions input {
     height: 25px;
