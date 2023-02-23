@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500&display=swap");
 
-.dark {
-	--bg-color: #003950;
-	--alt-bg-color: #0000004d;
-	--font-color: #ffffff;
-	--alt-font-color: #222222;
-	--primary-color: #008e9f;
-	--secondary-color: #00e4ff;
-}
 * {
     margin: 0;
     padding: 0;
@@ -87,8 +79,8 @@ button {
     justify-content: space-between;
 }
 .actions input {
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
     margin-top: 20px;
 }
 .edit-input{
