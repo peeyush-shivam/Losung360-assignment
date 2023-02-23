@@ -11,13 +11,13 @@ function Provider({ children }) {
 
   // Define a function that fetches todos from a REST API and updates the todos state
   const fetchTodos = async () => {
-    const response = await axios.get("http://localhost:3001/todos");
+    const response = await axios.get("http://localhost:5000/todos");
     setTodos(response.data);
   };
 
   // Define a function that creates a new todo using a REST API and fetches the updated list of todos
   const createTodo = async (title) => {
-    await axios.post("http://localhost:3001/todos", {
+    await axios.post("http://localhost:5000/todos", {
       title: title,
       isChecked: false,
     });
@@ -26,13 +26,13 @@ function Provider({ children }) {
 
   // Define a function that deletes a todo using a REST API and fetches the updated list of todos
   const deleteTodo = async (id) => {
-    await axios.delete(`http://localhost:3001/todos/${id}`);
+    await axios.delete(`http://localhost:5000/todos/${id}`);
     fetchTodos();
   };
 
   // Define a function that edits a todo using a REST API and fetches the updated list of todos
   const editTodo = async (id, newTitle) => {
-    await axios.put(`http://localhost:3001/todos/${id}`, {
+    await axios.put(`http://localhost:5000/todos/${id}`, {
       title: newTitle,
     });
     fetchTodos();
