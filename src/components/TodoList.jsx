@@ -27,7 +27,7 @@ function TodoList() {
   return (
     <div className="todo-list">
       {renderedTodoList}
-      {todos.length > 0 ? <button onClick={handleDeleteChecked}>Delete Checked Items</button> : <p>Your List is empty!</p> }
+      {todos.length > 0 ? <button onClick={handleDeleteChecked}>Clear Completed</button> : <p>Your List is empty!</p> }
     </div>
   );
 }
