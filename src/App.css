@@ -63,7 +63,7 @@ button {
 
 .todo-show{
     margin: 10px 0px 10px 0px;
-    height: 40px;
+    height: fit-content;
     display: flex;
     flex-direction: row;
     padding: 5px 20px 5px 20px;
@@ -73,6 +73,7 @@ button {
     align-items: center;
     justify-content: space-between;
     font-size: 20px;
+    word-wrap: normal;
 }
 .actions input {
     height: 20px;
@@ -90,4 +91,3 @@ button {
     padding: 0px;
     width: 50px;
 }
-
