@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500&display=swap");
+
+.dark {
+	--bg-color: #003950;
+	--alt-bg-color: #0000004d;
+	--font-color: #ffffff;
+	--alt-font-color: #222222;
+	--primary-color: #008e9f;
+	--secondary-color: #00e4ff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #003950;
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+}
+
+#root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.app{
+    width: 80%;
+    height: fit-content;
+    max-width: 900px;
+    padding: 30px;
+    margin: 5% auto;
+    background: #0000004d;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px 0px #00000045;
+    display: flex;
+    flex-direction: column-reverse;
+}
+input {
+    width: 70%;
+    padding: 13px 20px;
+    outline: none;
+    border: none;
+    background-color: #eee;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-family: inherit;
+    margin-bottom: 20px;
+}
+button {
+    cursor: pointer;
+    background-color: #008e9f;
+    padding: 13px 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: inherit;
+    color: #ffffff;
+}
+
+.todo-list button {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+/* .todo-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.todo-show{
+    margin: 10px 0px 10px 0px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    background: rgb(0, 150, 136);
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+}
+.actions input {
+    height: 15px;
+    width: 15px;
+    margin-top: 20px;
+}
+.edit-input{
+    height: 15px;
+    width: 45vw;
+    margin-top: 20px;
+}
+.save-edit{
+    background: none;
+    padding: 0px;
+    width: 50px;
+}
