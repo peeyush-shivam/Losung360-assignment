@@ -82,7 +82,7 @@ button {
 }
 .edit-input{
     height: 15px;
-    width: 45vw;
+    width: 35vw;
     margin-top: 20px;
 }
 .save-edit{
@@ -90,10 +90,4 @@ button {
     padding: 0px;
     width: 50px;
 }
-@media screen and (max-width: 500px) {
-  .edit-input{
-    height: 15px;
-    width: 200px;
-    margin-top: 20px;
-    }
-}
+
