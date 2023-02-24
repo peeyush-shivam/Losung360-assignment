@@ -8,12 +8,25 @@ This is a simple to-do application built using React and a REST API. The applica
 
 ## Getting Started
 
-To run the application, follow these steps:
+To run the application with Glitch as server, follow these steps:
 
 1. Clone this repository to your local machine using https://github.com/peeyush-shivam/Losung360-assignment.git.
 2. In the project directory, run `yarn` to install the project dependencies.
 3. Run `yarn dev` to start the application.
 4. Open your browser and navigate to `http://localhost:----/`.
+
+To run the application with a local mock server using `json-server`, follow these steps:
+
+1. Clone this repository to your local machine using https://github.com/peeyush-shivam/Losung360-assignment.git.
+2. In the project directory, run `yarn` to install the project dependencies.
+3. Navigate to the `src/context/context.jsx` and update the API calls sequentially as follows:
+  1. `https://petalite-equatorial-handspring.glitch.me/todos` to `http://localhost:5000/todos`
+  2. `https://petalite-equatorial-handspring.glitch.me/todos` to `http://localhost:5000/todos`
+  3. `https://petalite-equatorial-handspring.glitch.me/todos/${id}` to `http://localhost:5000/todos/${id}/${id}`
+  3. `https://petalite-equatorial-handspring.glitch.me/todos/${id}` to `http://localhost:5000/todos/${id}`
+4. Open an additional terminal window and run the local server using 
+. Run `yarn dev` to start the application.
+. Open your browser and navigate to `http://localhost:----/`.
 
 ## Dependencies
 
