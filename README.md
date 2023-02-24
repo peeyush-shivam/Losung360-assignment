@@ -10,30 +10,30 @@ This is a simple to-do application built using React and a REST API. The applica
 
 To run the application, follow these steps:
 
-Clone this repository to your local machine using https://github.com/peeyush-shivam/Losung360-assignment.git.
-In the project directory, run `yarn` to install the project dependencies.
-Run `yarn dev` to start the application.
-Open your browser and navigate to `http://localhost:----/`.
+-Clone this repository to your local machine using https://github.com/peeyush-shivam/Losung360-assignment.git.
+-In the project directory, run `yarn` to install the project dependencies.
+-Run `yarn dev` to start the application.
+-Open your browser and navigate to `http://localhost:----/`.
 
 
 ## Dependencies
 
 The application has the following dependencies:
 
-`axios`: A promise-based HTTP client used to make API calls.
-`react`: A JavaScript library used for building user interfaces.
-`react-dom`: A package that provides DOM-specific methods that can be used at the top level of a web application.
+-`axios`: A promise-based HTTP client used to make API calls.
+-`react`: A JavaScript library used for building user interfaces.
+-`react-dom`: A package that provides DOM-specific methods that can be used at the top level of a web application.
 
 ## Components
 
 The application is composed of several components:
 
-`App.jsx`: The main component that renders the TodoList and TodoCreate components.
-`TodoCreate.jsx`: A component that allows the user to create a new task.
-`TodoEdit.jsx`: A component that allows the user to edit an existing task.
-`TodoList.jsx`: A component that displays a list of tasks.
-`TodoShow.jsx`: A component that displays the details of a task.
-The state and functions required by these components are provided by a context created in `context.jsx` and accessed using the custom hook defined in `useContextHook.jsx`.
+-`App.jsx`: The main component that renders the TodoList and TodoCreate components.
+-`TodoCreate.jsx`: A component that allows the user to create a new task.
+-`TodoEdit.jsx`: A component that allows the user to edit an existing task.
+-`TodoList.jsx`: A component that displays a list of tasks.
+-`TodoShow.jsx`: A component that displays the details of a task.
+-The state and functions required by these components are provided by a context created in `context.jsx` and accessed using the custom hook defined in `useContextHook.jsx`.
 
 
 ## Acknowledgements
