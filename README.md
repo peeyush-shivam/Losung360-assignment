@@ -35,4 +35,6 @@ The application is composed of several components:
 - The state and functions required by these components are provided by a context created in `context.jsx` and accessed using the custom hook defined in `useContextHook.jsx`.
 
 
-## Acknowledgements
+## Contributing
+
+Contributions to this repository are always welcome. If you find any issues or have any suggestions for improvement, please submit an issue or pull request.
